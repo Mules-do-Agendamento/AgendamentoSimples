@@ -1,0 +1,19 @@
+/* Define a fonte padrão para todo o corpo do documento */
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Esconde todas as "telas" por padrão */
+.screen { 
+    display: none; 
+}
+
+/* Mostra apenas a tela que estiver com a classe "active" */
+.screen.active { 
+    display: block; 
+}
+
+/* Define uma altura mínima para os dias do calendário, para manter o layout consistente */
+.calendar-day { 
+    min-height: 100px; 
+}
